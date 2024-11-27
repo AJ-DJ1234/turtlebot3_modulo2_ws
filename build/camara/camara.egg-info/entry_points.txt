@@ -1,0 +1,4 @@
+[console_scripts]
+camara_client = camara.camara_client:main
+camara_server = camara.camara_server:main
+

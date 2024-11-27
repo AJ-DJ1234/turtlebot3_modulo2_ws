@@ -1,0 +1,8 @@
+explore_node:
+  ros__parameters:
+    use_sim_time: false
+    minimum_goal_distance: 0.5
+    goal_reached_threshold: 0.3
+    frontier_cluster_epsilon: 0.5
+    frontier_cluster_min_samples: 5
+    max_retry_attempts: 10

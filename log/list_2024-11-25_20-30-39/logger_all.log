@@ -1,0 +1,150 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75bc1b233730>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x75bc1b2328f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x75bc1b2328f0>>)
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.745s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extensions ['colcon_meta']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'colcon_meta'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extensions ['ros']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'ros'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'cmake'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'python'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extensions ['python_setup_py']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2) by extension 'python_setup_py'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build) ignored
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/log) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/log) ignored
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'ros'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extensions ['cmake', 'python']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'cmake'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'python'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extensions ['python_setup_py']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/scripts) by extension 'python_setup_py'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'ros'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extensions ['cmake', 'python']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'cmake'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'python'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extensions ['python_setup_py']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src) by extension 'python_setup_py'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara) by extension 'ros'
+[0.842s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara' with type 'ros.ament_python' and name 'camara'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extensions ['colcon_meta']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp) by extension 'ros'
+[0.849s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp' with type 'ros.ament_cmake' and name 'explore_cpp'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker) by extension 'ros'
+[0.890s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker' with type 'ros.ament_python' and name 'hazmat_marker'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extension 'ignore'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extension 'ignore_ament_install'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extensions ['colcon_pkg']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot) by extension 'ros'
+[0.893s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot' with type 'ros.ament_cmake' and name 'interface_turtlebot'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extension 'ignore'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extension 'ignore_ament_install'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extensions ['colcon_pkg']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extension 'colcon_pkg'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extensions ['colcon_meta']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extension 'colcon_meta'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extensions ['ros']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom) by extension 'ros'
+[0.896s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom' with type 'ros.ament_python' and name 'joint_state_publisher_custom'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extension 'ignore_ament_install'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extensions ['colcon_pkg']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extension 'colcon_pkg'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extensions ['colcon_meta']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster) by extension 'ros'
+[0.900s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster' with type 'ros.ament_python' and name 'laser_scan_adjuster'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extension 'ignore'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extension 'ignore_ament_install'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extensions ['colcon_pkg']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extension 'colcon_pkg'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extensions ['colcon_meta']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extension 'colcon_meta'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extensions ['ros']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller) by extension 'ros'
+[0.902s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller' with type 'ros.ament_python' and name 'motor_position_controller'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extension 'ignore_ament_install'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extensions ['colcon_pkg']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore' with type 'ros.ament_python' and name 'turtlebot3_explore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation) by extension 'ros'
+[0.911s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation' with type 'ros.ament_python' and name 'turtlebot3_poi_navigation'
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,507 @@
+[0.219s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.219s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ccd7b01aad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ccd7b01a410>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ccd7b01a410>>)
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.541s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/camara) by extension 'ros'
+[0.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camara' with type 'ros.ament_python' and name 'camara'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore_cpp) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package 'src/explore_cpp' with type 'ros.ament_cmake' and name 'explore_cpp'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/hazmat_marker) by extension 'ros'
+[0.580s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hazmat_marker' with type 'ros.ament_python' and name 'hazmat_marker'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher_custom) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joint_state_publisher_custom' with type 'ros.ament_python' and name 'joint_state_publisher_custom'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_scan_adjuster) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_scan_adjuster' with type 'ros.ament_python' and name 'laser_scan_adjuster'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_position_controller) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_position_controller' with type 'ros.ament_python' and name 'motor_position_controller'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_explore) by extension 'ros'
+[0.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_explore' with type 'ros.ament_python' and name 'turtlebot3_explore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_poi_navigation) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_poi_navigation' with type 'ros.ament_python' and name 'turtlebot3_poi_navigation'
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.670s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install
+[0.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_target' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_clean_cache' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_clean_first' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'cmake_force_configure' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'ament_cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'catkin_cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'camara' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.760s] DEBUG:colcon.colcon_core.verb:Building package 'camara' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara', 'symlink_install': False, 'test_result_base': None}
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'cmake_target' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'explore_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.762s] DEBUG:colcon.colcon_core.verb:Building package 'explore_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'cmake_args' from command line to 'None'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'cmake_target' from command line to 'None'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'cmake_clean_first' from command line to 'False'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'cmake_force_configure' from command line to 'False'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'ament_cmake_args' from command line to 'None'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'hazmat_marker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.763s] DEBUG:colcon.colcon_core.verb:Building package 'hazmat_marker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker', 'symlink_install': False, 'test_result_base': None}
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'cmake_target' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'cmake_clean_first' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'cmake_force_configure' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'ament_cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.764s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_publisher_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom', 'symlink_install': False, 'test_result_base': None}
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'cmake_target' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'cmake_clean_first' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'cmake_force_configure' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'ament_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_adjuster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.765s] DEBUG:colcon.colcon_core.verb:Building package 'laser_scan_adjuster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster', 'symlink_install': False, 'test_result_base': None}
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'motor_position_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'motor_position_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'cmake_target' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'catkin_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_explore' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.767s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_explore' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore', 'symlink_install': False, 'test_result_base': None}
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'cmake_target' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_poi_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.768s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_poi_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation', 'merge_install': False, 'path': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.768s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.771s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara' with build type 'ament_python'
+[0.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('camara', 'ament_prefix_path')
+[0.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/hook/ament_prefix_path.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/hook/ament_prefix_path.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/hook/ament_prefix_path.sh'
+[0.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.787s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp' with build type 'ament_cmake'
+[0.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker' with build type 'ament_python'
+[0.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('hazmat_marker', 'ament_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/hook/ament_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/hook/ament_prefix_path.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/hook/ament_prefix_path.sh'
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.808s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom' with build type 'ament_python'
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher_custom', 'ament_prefix_path')
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/hook/ament_prefix_path.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/hook/ament_prefix_path.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/hook/ament_prefix_path.sh'
+[0.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.353s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara'
+[1.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble /usr/bin/cmake --build /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp -- -j4 -l4
+[1.962s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker'
+[1.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble /usr/bin/cmake --build /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp -- -j4 -l4
+[2.525s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'joint_state_publisher_custom' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.525s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'joint_state_publisher_custom' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.526s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom'
+[2.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble /usr/bin/cmake --install /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp
+[2.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_cpp)
+[2.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble /usr/bin/cmake --install /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp' for CMake module files
+[2.619s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp' for CMake config files
+[2.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_cpp', 'cmake_prefix_path')
+[2.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/hook/cmake_prefix_path.ps1'
+[2.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/hook/cmake_prefix_path.dsv'
+[2.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/hook/cmake_prefix_path.sh'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/bin'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/pkgconfig/explore_cpp.pc'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/python3.10/site-packages'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/bin'
+[2.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.dsv'
+[2.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.sh'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.bash'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.zsh'
+[2.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/colcon-core/packages/explore_cpp)
+[2.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_cpp)
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp' for CMake module files
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp' for CMake config files
+[2.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_cpp', 'cmake_prefix_path')
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/hook/cmake_prefix_path.ps1'
+[2.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/hook/cmake_prefix_path.dsv'
+[2.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/hook/cmake_prefix_path.sh'
+[2.720s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib'
+[2.720s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/bin'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/pkgconfig/explore_cpp.pc'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/python3.10/site-packages'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/bin'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.ps1'
+[2.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.sh'
+[2.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.bash'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.zsh'
+[2.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/colcon-core/packages/explore_cpp)
+[2.744s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster' with build type 'ament_python'
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_scan_adjuster', 'ament_prefix_path')
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/hook/ament_prefix_path.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/hook/ament_prefix_path.dsv'
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/hook/ament_prefix_path.sh'
+[2.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.850s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster'
+[3.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher_custom build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/install.log --single-version-externally-managed
+[3.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camara build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log --single-version-externally-managed install_data
+[4.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hazmat_marker build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log --single-version-externally-managed install_data
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara' for CMake module files
+[4.694s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara' for CMake config files
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib'
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/bin'
+[4.697s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/pkgconfig/camara.pc'
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages'
+[4.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('camara', 'pythonpath')
+[4.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/hook/pythonpath.ps1'
+[4.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camara build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log --single-version-externally-managed install_data
+[4.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/hook/pythonpath.dsv'
+[4.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/hook/pythonpath.sh'
+[4.709s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/bin'
+[4.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camara)
+[4.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/package.ps1'
+[4.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/package.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/package.sh'
+[4.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/package.bash'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/camara/package.zsh'
+[4.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/share/colcon-core/packages/camara)
+[4.728s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller' with build type 'ament_python'
+[4.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_position_controller', 'ament_prefix_path')
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/hook/ament_prefix_path.ps1'
+[4.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/hook/ament_prefix_path.dsv'
+[4.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/hook/ament_prefix_path.sh'
+[4.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.741s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller'
+[5.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.730s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker' for CMake module files
+[5.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hazmat_marker build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log --single-version-externally-managed install_data
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker' for CMake config files
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib'
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/bin'
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/pkgconfig/hazmat_marker.pc'
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages'
+[5.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('hazmat_marker', 'pythonpath')
+[5.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/hook/pythonpath.ps1'
+[5.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/hook/pythonpath.dsv'
+[5.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/hook/pythonpath.sh'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/bin'
+[5.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hazmat_marker)
+[5.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/package.ps1'
+[5.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/package.dsv'
+[5.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/package.sh'
+[5.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/package.bash'
+[5.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/hazmat_marker/package.zsh'
+[5.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/share/colcon-core/packages/hazmat_marker)
+[5.747s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom' for CMake module files
+[5.750s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom' for CMake config files
+[5.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher_custom build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/install.log --single-version-externally-managed
+[5.753s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib'
+[5.753s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/bin'
+[5.753s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/pkgconfig/joint_state_publisher_custom.pc'
+[5.753s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages'
+[5.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher_custom', 'pythonpath')
+[5.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/hook/pythonpath.ps1'
+[5.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/hook/pythonpath.dsv'
+[5.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/hook/pythonpath.sh'
+[5.760s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/bin'
+[5.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_state_publisher_custom)
+[5.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/package.ps1'
+[5.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/package.dsv'
+[5.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/package.sh'
+[5.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/package.bash'
+[5.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/joint_state_publisher_custom/package.zsh'
+[5.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/share/colcon-core/packages/joint_state_publisher_custom)
+[5.773s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore' with build type 'ament_python'
+[5.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_explore', 'ament_prefix_path')
+[5.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/hook/ament_prefix_path.ps1'
+[5.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/hook/ament_prefix_path.dsv'
+[5.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_scan_adjuster build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log --single-version-externally-managed install_data
+[5.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/hook/ament_prefix_path.sh'
+[5.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.796s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation' with build type 'ament_python'
+[5.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_poi_navigation', 'ament_prefix_path')
+[5.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/hook/ament_prefix_path.ps1'
+[5.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/hook/ament_prefix_path.dsv'
+[5.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/hook/ament_prefix_path.sh'
+[5.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore'
+[6.716s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.716s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.256s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation'
+[7.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_position_controller build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log --single-version-externally-managed install_data
+[7.287s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster' for CMake module files
+[7.287s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster' for CMake config files
+[7.292s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib'
+[7.292s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/bin'
+[7.292s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/pkgconfig/laser_scan_adjuster.pc'
+[7.293s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages'
+[7.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_scan_adjuster', 'pythonpath')
+[7.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/hook/pythonpath.ps1'
+[7.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_scan_adjuster build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log --single-version-externally-managed install_data
+[7.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/hook/pythonpath.dsv'
+[7.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/hook/pythonpath.sh'
+[7.301s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/bin'
+[7.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_scan_adjuster)
+[7.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/package.ps1'
+[7.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/package.dsv'
+[7.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/package.sh'
+[7.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/package.bash'
+[7.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/laser_scan_adjuster/package.zsh'
+[7.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/share/colcon-core/packages/laser_scan_adjuster)
+[8.116s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller' for CMake module files
+[8.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_position_controller build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log --single-version-externally-managed install_data
+[8.121s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller' for CMake config files
+[8.123s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib'
+[8.124s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/bin'
+[8.124s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/pkgconfig/motor_position_controller.pc'
+[8.124s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages'
+[8.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_position_controller', 'pythonpath')
+[8.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/hook/pythonpath.ps1'
+[8.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/hook/pythonpath.dsv'
+[8.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/hook/pythonpath.sh'
+[8.129s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/bin'
+[8.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_position_controller)
+[8.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/package.ps1'
+[8.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/package.dsv'
+[8.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/package.sh'
+[8.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/package.bash'
+[8.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller/package.zsh'
+[8.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/colcon-core/packages/motor_position_controller)
+[8.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_explore build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log --single-version-externally-managed install_data
+[8.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_poi_navigation build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/install.log --single-version-externally-managed install_data
+[9.074s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore' for CMake module files
+[9.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_explore build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log --single-version-externally-managed install_data
+[9.076s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore' for CMake config files
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/bin'
+[9.079s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/pkgconfig/turtlebot3_explore.pc'
+[9.079s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages'
+[9.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_explore', 'pythonpath')
+[9.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/hook/pythonpath.ps1'
+[9.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/hook/pythonpath.dsv'
+[9.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/hook/pythonpath.sh'
+[9.086s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/bin'
+[9.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_explore)
+[9.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/package.ps1'
+[9.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/package.dsv'
+[9.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/package.sh'
+[9.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/package.bash'
+[9.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/turtlebot3_explore/package.zsh'
+[9.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/share/colcon-core/packages/turtlebot3_explore)
+[9.213s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation' for CMake module files
+[9.214s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation' for CMake config files
+[9.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_poi_navigation build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/install.log --single-version-externally-managed install_data
+[9.219s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib'
+[9.220s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/bin'
+[9.220s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/pkgconfig/turtlebot3_poi_navigation.pc'
+[9.220s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages'
+[9.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_poi_navigation', 'pythonpath')
+[9.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/hook/pythonpath.ps1'
+[9.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/hook/pythonpath.dsv'
+[9.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/hook/pythonpath.sh'
+[9.226s] Level 1:colcon.colcon_core.environment:checking '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/bin'
+[9.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_poi_navigation)
+[9.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/package.ps1'
+[9.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/package.dsv'
+[9.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/package.sh'
+[9.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/package.bash'
+[9.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/turtlebot3_poi_navigation/package.zsh'
+[9.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/share/colcon-core/packages/turtlebot3_poi_navigation)
+[9.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.236s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.250s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.282s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/local_setup.ps1'
+[9.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/_local_setup_util_ps1.py'
+[9.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/setup.ps1'
+[9.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/local_setup.sh'
+[9.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/_local_setup_util_sh.py'
+[9.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/setup.sh'
+[9.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/local_setup.bash'
+[9.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/setup.bash'
+[9.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/local_setup.zsh'
+[9.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/setup.zsh'

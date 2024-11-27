@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages/turtlebot3_poi_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages/turtlebot3_poi_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing poi_manager script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/turtlebot3_poi_navigation
+writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/install.log'

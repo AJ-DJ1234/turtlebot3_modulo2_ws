@@ -1,0 +1,40 @@
+[1.123s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite -- -j4 -l4
+[3.556s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[3.557s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[3.930s] [35m[1mConsolidate compiler generated dependencies of target explore[0m
+[4.122s] [ 20%] Built target gtest_main
+[4.174s] [ 40%] Built target gtest
+[4.271s] [35m[1mConsolidate compiler generated dependencies of target test_explore[0m
+[4.454s] [ 60%] Built target test_explore
+[4.468s] [100%] Built target explore
+[4.489s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite -- -j4 -l4
+[4.565s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite
+[4.582s] -- Install configuration: ""
+[4.626s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/include/explore/
+[4.652s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/include/explore//costmap_tools.h
+[4.652s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/include/explore//costmap_client.h
+[4.652s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/include/explore//explore.h
+[4.652s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/include/explore//frontier_search.h
+[4.710s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/config
+[4.721s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[4.721s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/config/params.yaml
+[4.721s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/launch
+[4.754s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[4.909s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/lib/explore_lite/explore
+[4.940s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[4.971s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[4.971s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[4.972s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[4.972s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/environment/path.sh
+[4.972s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/environment/path.dsv
+[4.972s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/local_setup.bash
+[4.973s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/local_setup.sh
+[4.973s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/local_setup.zsh
+[4.973s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/local_setup.dsv
+[4.973s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/package.dsv
+[5.022s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[5.022s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.022s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[5.023s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[5.023s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite/share/explore_lite/package.xml
+[5.375s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite

@@ -1,0 +1,554 @@
+[0.000000] (-) TimerEvent: {}
+[0.000339] (camara) JobQueued: {'identifier': 'camara', 'dependencies': OrderedDict()}
+[0.000400] (explore_cpp) JobQueued: {'identifier': 'explore_cpp', 'dependencies': OrderedDict()}
+[0.000434] (hazmat_marker) JobQueued: {'identifier': 'hazmat_marker', 'dependencies': OrderedDict()}
+[0.000465] (joint_state_publisher_custom) JobQueued: {'identifier': 'joint_state_publisher_custom', 'dependencies': OrderedDict()}
+[0.000496] (laser_scan_adjuster) JobQueued: {'identifier': 'laser_scan_adjuster', 'dependencies': OrderedDict()}
+[0.000526] (motor_position_controller) JobQueued: {'identifier': 'motor_position_controller', 'dependencies': OrderedDict()}
+[0.000556] (turtlebot3_explore) JobQueued: {'identifier': 'turtlebot3_explore', 'dependencies': OrderedDict()}
+[0.000585] (turtlebot3_poi_navigation) JobQueued: {'identifier': 'turtlebot3_poi_navigation', 'dependencies': OrderedDict()}
+[0.002637] (camara) JobStarted: {'identifier': 'camara'}
+[0.093521] (explore_cpp) JobStarted: {'identifier': 'explore_cpp'}
+[0.099450] (-) TimerEvent: {}
+[0.116608] (hazmat_marker) JobStarted: {'identifier': 'hazmat_marker'}
+[0.165609] (joint_state_publisher_custom) JobStarted: {'identifier': 'joint_state_publisher_custom'}
+[0.199645] (-) TimerEvent: {}
+[0.300267] (-) TimerEvent: {}
+[0.400799] (-) TimerEvent: {}
+[0.501288] (-) TimerEvent: {}
+[0.601959] (-) TimerEvent: {}
+[0.702673] (-) TimerEvent: {}
+[0.803193] (-) TimerEvent: {}
+[0.887693] (explore_cpp) JobProgress: {'identifier': 'explore_cpp', 'progress': 'cmake'}
+[0.903425] (-) TimerEvent: {}
+[0.944958] (explore_cpp) JobProgress: {'identifier': 'explore_cpp', 'progress': 'build'}
+[0.950434] (explore_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp', '--', '-j4', '-l4'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,3158,0'), ('USER', 'ajdj'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajdj'), ('OLDPWD', '/home/ajdj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2607'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ajdj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajdj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TQA1X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble')]), 'shell': False}
+[1.003971] (-) TimerEvent: {}
+[1.104816] (-) TimerEvent: {}
+[1.205369] (-) TimerEvent: {}
+[1.305832] (-) TimerEvent: {}
+[1.406301] (-) TimerEvent: {}
+[1.506841] (-) TimerEvent: {}
+[1.607897] (-) TimerEvent: {}
+[1.708405] (-) TimerEvent: {}
+[1.808944] (-) TimerEvent: {}
+[1.894037] (explore_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target explore_node\x1b[0m\n'}
+[1.909065] (-) TimerEvent: {}
+[1.943430] (explore_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore_node.dir/src/explore_node.cpp.o\x1b[0m\n'}
+[2.009188] (-) TimerEvent: {}
+[2.109654] (-) TimerEvent: {}
+[2.214891] (-) TimerEvent: {}
+[2.315388] (-) TimerEvent: {}
+[2.415978] (-) TimerEvent: {}
+[2.516516] (-) TimerEvent: {}
+[2.617120] (-) TimerEvent: {}
+[2.718106] (-) TimerEvent: {}
+[2.819941] (-) TimerEvent: {}
+[2.920419] (-) TimerEvent: {}
+[3.021666] (-) TimerEvent: {}
+[3.124676] (-) TimerEvent: {}
+[3.225211] (-) TimerEvent: {}
+[3.325746] (-) TimerEvent: {}
+[3.426362] (-) TimerEvent: {}
+[3.527285] (-) TimerEvent: {}
+[3.627802] (-) TimerEvent: {}
+[3.728684] (-) TimerEvent: {}
+[3.829276] (-) TimerEvent: {}
+[3.929903] (-) TimerEvent: {}
+[4.030397] (-) TimerEvent: {}
+[4.130904] (-) TimerEvent: {}
+[4.231416] (-) TimerEvent: {}
+[4.331983] (-) TimerEvent: {}
+[4.432452] (-) TimerEvent: {}
+[4.535763] (-) TimerEvent: {}
+[4.636382] (-) TimerEvent: {}
+[4.736944] (-) TimerEvent: {}
+[4.837491] (-) TimerEvent: {}
+[4.938107] (-) TimerEvent: {}
+[5.040615] (-) TimerEvent: {}
+[5.144947] (-) TimerEvent: {}
+[5.246494] (-) TimerEvent: {}
+[5.289004] (hazmat_marker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hazmat_marker', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[5.312954] (camara) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camara', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[5.351538] (-) TimerEvent: {}
+[5.376913] (joint_state_publisher_custom) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joint_state_publisher_custom', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/install.log', '--single-version-externally-managed'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/joint_state_publisher_custom', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[5.453951] (-) TimerEvent: {}
+[5.554468] (-) TimerEvent: {}
+[5.657950] (-) TimerEvent: {}
+[5.758492] (-) TimerEvent: {}
+[5.859554] (-) TimerEvent: {}
+[5.937117] (camara) StdoutLine: {'line': b'running egg_info\n'}
+[5.939166] (camara) StdoutLine: {'line': b'writing ../../build/camara/camara.egg-info/PKG-INFO\n'}
+[5.943379] (camara) StdoutLine: {'line': b'writing dependency_links to ../../build/camara/camara.egg-info/dependency_links.txt\n'}
+[5.944205] (camara) StdoutLine: {'line': b'writing entry points to ../../build/camara/camara.egg-info/entry_points.txt\n'}
+[5.944773] (camara) StdoutLine: {'line': b'writing requirements to ../../build/camara/camara.egg-info/requires.txt\n'}
+[5.945732] (camara) StdoutLine: {'line': b'writing top-level names to ../../build/camara/camara.egg-info/top_level.txt\n'}
+[5.951176] (camara) StdoutLine: {'line': b"reading manifest file '../../build/camara/camara.egg-info/SOURCES.txt'\n"}
+[5.961808] (-) TimerEvent: {}
+[5.972340] (camara) StdoutLine: {'line': b"writing manifest file '../../build/camara/camara.egg-info/SOURCES.txt'\n"}
+[5.974056] (camara) StdoutLine: {'line': b'running build\n'}
+[5.974359] (camara) StdoutLine: {'line': b'running build_py\n'}
+[6.002616] (hazmat_marker) StdoutLine: {'line': b'running egg_info\n'}
+[6.005412] (hazmat_marker) StdoutLine: {'line': b'writing ../../build/hazmat_marker/hazmat_marker.egg-info/PKG-INFO\n'}
+[6.016997] (hazmat_marker) StdoutLine: {'line': b'writing dependency_links to ../../build/hazmat_marker/hazmat_marker.egg-info/dependency_links.txt\n'}
+[6.019458] (hazmat_marker) StdoutLine: {'line': b'writing entry points to ../../build/hazmat_marker/hazmat_marker.egg-info/entry_points.txt\n'}
+[6.019581] (camara) StdoutLine: {'line': b'running install\n'}
+[6.019691] (hazmat_marker) StdoutLine: {'line': b'writing requirements to ../../build/hazmat_marker/hazmat_marker.egg-info/requires.txt\n'}
+[6.019782] (hazmat_marker) StdoutLine: {'line': b'writing top-level names to ../../build/hazmat_marker/hazmat_marker.egg-info/top_level.txt\n'}
+[6.019898] (camara) StdoutLine: {'line': b'running install_lib\n'}
+[6.023128] (camara) StdoutLine: {'line': b'running install_data\n'}
+[6.023860] (camara) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.025654] (hazmat_marker) StdoutLine: {'line': b"reading manifest file '../../build/hazmat_marker/hazmat_marker.egg-info/SOURCES.txt'\n"}
+[6.028692] (camara) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages/camara-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.030316] (camara) StdoutLine: {'line': b'Copying ../../build/camara/camara.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages/camara-0.0.0-py3.10.egg-info\n'}
+[6.044332] (hazmat_marker) StdoutLine: {'line': b"writing manifest file '../../build/hazmat_marker/hazmat_marker.egg-info/SOURCES.txt'\n"}
+[6.044841] (hazmat_marker) StdoutLine: {'line': b'running build\n'}
+[6.045016] (hazmat_marker) StdoutLine: {'line': b'running build_py\n'}
+[6.058440] (camara) StdoutLine: {'line': b'running install_scripts\n'}
+[6.061951] (-) TimerEvent: {}
+[6.087798] (hazmat_marker) StdoutLine: {'line': b'running install\n'}
+[6.091869] (hazmat_marker) StdoutLine: {'line': b'running install_lib\n'}
+[6.096636] (hazmat_marker) StdoutLine: {'line': b'running install_data\n'}
+[6.097007] (hazmat_marker) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.100974] (hazmat_marker) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[6.101605] (hazmat_marker) StdoutLine: {'line': b'Copying ../../build/hazmat_marker/hazmat_marker.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker-0.1.0-py3.10.egg-info\n'}
+[6.109880] (camara) StdoutLine: {'line': b'Installing camara_client script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/camara\n'}
+[6.110239] (camara) StdoutLine: {'line': b'Installing camara_server script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/camara\n'}
+[6.112577] (camara) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log'\n"}
+[6.115006] (joint_state_publisher_custom) StdoutLine: {'line': b'running egg_info\n'}
+[6.119112] (joint_state_publisher_custom) StdoutLine: {'line': b'writing ../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/PKG-INFO\n'}
+[6.119559] (hazmat_marker) StdoutLine: {'line': b'running install_scripts\n'}
+[6.136191] (joint_state_publisher_custom) StdoutLine: {'line': b'writing dependency_links to ../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/dependency_links.txt\n'}
+[6.136828] (joint_state_publisher_custom) StdoutLine: {'line': b'writing entry points to ../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/entry_points.txt\n'}
+[6.137061] (joint_state_publisher_custom) StdoutLine: {'line': b'writing requirements to ../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/requires.txt\n'}
+[6.137166] (joint_state_publisher_custom) StdoutLine: {'line': b'writing top-level names to ../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/top_level.txt\n'}
+[6.142107] (joint_state_publisher_custom) StdoutLine: {'line': b"reading manifest file '../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/SOURCES.txt'\n"}
+[6.162104] (-) TimerEvent: {}
+[6.171987] (joint_state_publisher_custom) StdoutLine: {'line': b"writing manifest file '../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info/SOURCES.txt'\n"}
+[6.172398] (joint_state_publisher_custom) StdoutLine: {'line': b'running build\n'}
+[6.172528] (joint_state_publisher_custom) StdoutLine: {'line': b'running build_py\n'}
+[6.174294] (joint_state_publisher_custom) StdoutLine: {'line': b'running install\n'}
+[6.175268] (hazmat_marker) StdoutLine: {'line': b'Installing hazmat_marker script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/hazmat_marker\n'}
+[6.176827] (hazmat_marker) StdoutLine: {'line': b'Installing hazmat_marker_aj script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/hazmat_marker\n'}
+[6.177130] (joint_state_publisher_custom) StdoutLine: {'line': b'running install_lib\n'}
+[6.177246] (hazmat_marker) StdoutLine: {'line': b'Installing hazmat_marker_al script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/hazmat_marker\n'}
+[6.180008] (hazmat_marker) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log'\n"}
+[6.185108] (joint_state_publisher_custom) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.188994] (joint_state_publisher_custom) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages/joint_state_publisher_custom-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.192997] (joint_state_publisher_custom) StdoutLine: {'line': b'Copying ../../build/joint_state_publisher_custom/joint_state_publisher_custom.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages/joint_state_publisher_custom-0.0.0-py3.10.egg-info\n'}
+[6.215979] (joint_state_publisher_custom) StdoutLine: {'line': b'running install_scripts\n'}
+[6.233755] (camara) CommandEnded: {'returncode': 0}
+[6.262872] (-) TimerEvent: {}
+[6.272971] (joint_state_publisher_custom) StdoutLine: {'line': b'Installing joint_state_publisher script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/joint_state_publisher_custom\n'}
+[6.301534] (joint_state_publisher_custom) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/joint_state_publisher_custom/install.log'\n"}
+[6.363035] (-) TimerEvent: {}
+[6.463563] (-) TimerEvent: {}
+[6.547630] (camara) JobEnded: {'identifier': 'camara', 'rc': 0}
+[6.552124] (laser_scan_adjuster) JobStarted: {'identifier': 'laser_scan_adjuster'}
+[6.564580] (-) TimerEvent: {}
+[6.568107] (hazmat_marker) CommandEnded: {'returncode': 0}
+[6.622945] (hazmat_marker) JobEnded: {'identifier': 'hazmat_marker', 'rc': 0}
+[6.623804] (joint_state_publisher_custom) CommandEnded: {'returncode': 0}
+[6.636249] (joint_state_publisher_custom) JobEnded: {'identifier': 'joint_state_publisher_custom', 'rc': 0}
+[6.638745] (motor_position_controller) JobStarted: {'identifier': 'motor_position_controller'}
+[6.664725] (-) TimerEvent: {}
+[6.685570] (turtlebot3_explore) JobStarted: {'identifier': 'turtlebot3_explore'}
+[6.764882] (-) TimerEvent: {}
+[6.865772] (-) TimerEvent: {}
+[6.967178] (-) TimerEvent: {}
+[7.068085] (-) TimerEvent: {}
+[7.169050] (-) TimerEvent: {}
+[7.269678] (-) TimerEvent: {}
+[7.370557] (-) TimerEvent: {}
+[7.471113] (-) TimerEvent: {}
+[7.571980] (-) TimerEvent: {}
+[7.674974] (-) TimerEvent: {}
+[7.775509] (-) TimerEvent: {}
+[7.877005] (-) TimerEvent: {}
+[7.977664] (-) TimerEvent: {}
+[8.078201] (-) TimerEvent: {}
+[8.179099] (-) TimerEvent: {}
+[8.279630] (-) TimerEvent: {}
+[8.380394] (-) TimerEvent: {}
+[8.482397] (-) TimerEvent: {}
+[8.584977] (-) TimerEvent: {}
+[8.686192] (-) TimerEvent: {}
+[8.788211] (-) TimerEvent: {}
+[8.892234] (-) TimerEvent: {}
+[8.994177] (-) TimerEvent: {}
+[9.094727] (-) TimerEvent: {}
+[9.195617] (-) TimerEvent: {}
+[9.298989] (-) TimerEvent: {}
+[9.391972] (motor_position_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_position_controller', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[9.400522] (-) TimerEvent: {}
+[9.463178] (laser_scan_adjuster) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/laser_scan_adjuster', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[9.500650] (-) TimerEvent: {}
+[9.604181] (-) TimerEvent: {}
+[9.667737] (turtlebot3_explore) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_explore', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[9.705703] (-) TimerEvent: {}
+[9.807953] (-) TimerEvent: {}
+[9.908461] (-) TimerEvent: {}
+[10.014038] (-) TimerEvent: {}
+[10.110927] (laser_scan_adjuster) StdoutLine: {'line': b'running egg_info\n'}
+[10.111558] (laser_scan_adjuster) StdoutLine: {'line': b'writing ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/PKG-INFO\n'}
+[10.114154] (-) TimerEvent: {}
+[10.124892] (motor_position_controller) StdoutLine: {'line': b'running egg_info\n'}
+[10.127173] (motor_position_controller) StdoutLine: {'line': b'writing ../../build/motor_position_controller/motor_position_controller.egg-info/PKG-INFO\n'}
+[10.134660] (laser_scan_adjuster) StdoutLine: {'line': b'writing dependency_links to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/dependency_links.txt\n'}
+[10.136097] (laser_scan_adjuster) StdoutLine: {'line': b'writing entry points to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/entry_points.txt\n'}
+[10.136572] (laser_scan_adjuster) StdoutLine: {'line': b'writing requirements to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/requires.txt\n'}
+[10.136814] (laser_scan_adjuster) StdoutLine: {'line': b'writing top-level names to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/top_level.txt\n'}
+[10.149430] (motor_position_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_position_controller/motor_position_controller.egg-info/dependency_links.txt\n'}
+[10.151709] (motor_position_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_position_controller/motor_position_controller.egg-info/entry_points.txt\n'}
+[10.152039] (motor_position_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_position_controller/motor_position_controller.egg-info/requires.txt\n'}
+[10.152139] (motor_position_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_position_controller/motor_position_controller.egg-info/top_level.txt\n'}
+[10.157716] (laser_scan_adjuster) StdoutLine: {'line': b"reading manifest file '../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/SOURCES.txt'\n"}
+[10.160667] (motor_position_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'\n"}
+[10.161246] (laser_scan_adjuster) StdoutLine: {'line': b"writing manifest file '../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/SOURCES.txt'\n"}
+[10.161449] (laser_scan_adjuster) StdoutLine: {'line': b'running build\n'}
+[10.161545] (laser_scan_adjuster) StdoutLine: {'line': b'running build_py\n'}
+[10.163681] (motor_position_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'\n"}
+[10.164563] (motor_position_controller) StdoutLine: {'line': b'running build\n'}
+[10.164698] (motor_position_controller) StdoutLine: {'line': b'running build_py\n'}
+[10.166562] (motor_position_controller) StdoutLine: {'line': b'running install\n'}
+[10.168280] (motor_position_controller) StdoutLine: {'line': b'running install_lib\n'}
+[10.175532] (motor_position_controller) StdoutLine: {'line': b'running install_data\n'}
+[10.175944] (motor_position_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.179586] (motor_position_controller) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.200988] (motor_position_controller) StdoutLine: {'line': b'Copying ../../build/motor_position_controller/motor_position_controller.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller-0.0.0-py3.10.egg-info\n'}
+[10.201394] (laser_scan_adjuster) StdoutLine: {'line': b'running install\n'}
+[10.201634] (laser_scan_adjuster) StdoutLine: {'line': b'running install_lib\n'}
+[10.207131] (laser_scan_adjuster) StdoutLine: {'line': b'running install_data\n'}
+[10.208018] (laser_scan_adjuster) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.212316] (laser_scan_adjuster) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages/laser_scan_adjuster-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.214345] (laser_scan_adjuster) StdoutLine: {'line': b'Copying ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages/laser_scan_adjuster-0.0.0-py3.10.egg-info\n'}
+[10.214654] (-) TimerEvent: {}
+[10.216059] (motor_position_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[10.230110] (laser_scan_adjuster) StdoutLine: {'line': b'running install_scripts\n'}
+[10.284889] (laser_scan_adjuster) StdoutLine: {'line': b'Installing adjust_scan script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/laser_scan_adjuster\n'}
+[10.285211] (motor_position_controller) StdoutLine: {'line': b'Installing motor_position_controller script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/motor_position_controller\n'}
+[10.294906] (laser_scan_adjuster) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log'\n"}
+[10.295611] (motor_position_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log'\n"}
+[10.314900] (-) TimerEvent: {}
+[10.316795] (turtlebot3_explore) StdoutLine: {'line': b'running egg_info\n'}
+[10.319089] (turtlebot3_explore) StdoutLine: {'line': b'writing ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/PKG-INFO\n'}
+[10.356167] (turtlebot3_explore) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/dependency_links.txt\n'}
+[10.356573] (turtlebot3_explore) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/entry_points.txt\n'}
+[10.356682] (turtlebot3_explore) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/requires.txt\n'}
+[10.356831] (turtlebot3_explore) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/top_level.txt\n'}
+[10.360572] (turtlebot3_explore) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_explore/turtlebot3_explore.egg-info/SOURCES.txt'\n"}
+[10.394284] (turtlebot3_explore) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_explore/turtlebot3_explore.egg-info/SOURCES.txt'\n"}
+[10.394822] (turtlebot3_explore) StdoutLine: {'line': b'running build\n'}
+[10.394985] (turtlebot3_explore) StdoutLine: {'line': b'running build_py\n'}
+[10.411567] (laser_scan_adjuster) CommandEnded: {'returncode': 0}
+[10.415042] (-) TimerEvent: {}
+[10.424930] (turtlebot3_explore) StdoutLine: {'line': b'running install\n'}
+[10.425225] (turtlebot3_explore) StdoutLine: {'line': b'running install_lib\n'}
+[10.425447] (turtlebot3_explore) StdoutLine: {'line': b'running install_data\n'}
+[10.429993] (turtlebot3_explore) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.435457] (turtlebot3_explore) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages/turtlebot3_explore-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[10.438646] (turtlebot3_explore) StdoutLine: {'line': b'Copying ../../build/turtlebot3_explore/turtlebot3_explore.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages/turtlebot3_explore-0.0.1-py3.10.egg-info\n'}
+[10.450973] (laser_scan_adjuster) JobEnded: {'identifier': 'laser_scan_adjuster', 'rc': 0}
+[10.459489] (turtlebot3_poi_navigation) JobStarted: {'identifier': 'turtlebot3_poi_navigation'}
+[10.459649] (turtlebot3_explore) StdoutLine: {'line': b'running install_scripts\n'}
+[10.494231] (motor_position_controller) CommandEnded: {'returncode': 0}
+[10.508696] (turtlebot3_explore) StdoutLine: {'line': b'Installing explore script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/turtlebot3_explore\n'}
+[10.509612] (turtlebot3_explore) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log'\n"}
+[10.516094] (motor_position_controller) JobEnded: {'identifier': 'motor_position_controller', 'rc': 0}
+[10.517257] (-) TimerEvent: {}
+[10.617896] (-) TimerEvent: {}
+[10.719079] (-) TimerEvent: {}
+[10.820111] (-) TimerEvent: {}
+[10.920800] (-) TimerEvent: {}
+[11.021343] (-) TimerEvent: {}
+[11.109505] (turtlebot3_explore) CommandEnded: {'returncode': 0}
+[11.121523] (-) TimerEvent: {}
+[11.125127] (turtlebot3_explore) JobEnded: {'identifier': 'turtlebot3_explore', 'rc': 0}
+[11.221799] (-) TimerEvent: {}
+[11.322543] (-) TimerEvent: {}
+[11.423001] (-) TimerEvent: {}
+[11.523475] (-) TimerEvent: {}
+[11.623996] (-) TimerEvent: {}
+[11.724449] (-) TimerEvent: {}
+[11.824952] (-) TimerEvent: {}
+[11.925626] (-) TimerEvent: {}
+[11.948951] (turtlebot3_poi_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_poi_navigation', 'build', '--build-base', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/build', 'install', '--record', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_poi_navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,3158,0', 'USER': 'ajdj', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajdj', 'OLDPWD': '/home/ajdj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '2607', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajdj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ajdj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQA1X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%3', 'CMAKE_PREFIX_PATH': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp'}, 'shell': False}
+[12.026974] (-) TimerEvent: {}
+[12.128427] (-) TimerEvent: {}
+[12.228896] (-) TimerEvent: {}
+[12.329391] (-) TimerEvent: {}
+[12.430275] (-) TimerEvent: {}
+[12.448266] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[12.450014] (turtlebot3_poi_navigation) StdoutLine: {'line': b'writing ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/PKG-INFO\n'}
+[12.477859] (turtlebot3_poi_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/dependency_links.txt\n'}
+[12.478234] (turtlebot3_poi_navigation) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/entry_points.txt\n'}
+[12.478420] (turtlebot3_poi_navigation) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/requires.txt\n'}
+[12.478527] (turtlebot3_poi_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/top_level.txt\n'}
+[12.486821] (turtlebot3_poi_navigation) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/SOURCES.txt'\n"}
+[12.489027] (turtlebot3_poi_navigation) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info/SOURCES.txt'\n"}
+[12.489506] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running build\n'}
+[12.489618] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running build_py\n'}
+[12.490541] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running install\n'}
+[12.491193] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[12.494316] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running install_data\n'}
+[12.494666] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.498062] (turtlebot3_poi_navigation) StdoutLine: {'line': b"removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages/turtlebot3_poi_navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.500075] (turtlebot3_poi_navigation) StdoutLine: {'line': b'Copying ../../build/turtlebot3_poi_navigation/turtlebot3_poi_navigation.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages/turtlebot3_poi_navigation-0.0.0-py3.10.egg-info\n'}
+[12.522127] (turtlebot3_poi_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[12.530440] (-) TimerEvent: {}
+[12.563588] (turtlebot3_poi_navigation) StdoutLine: {'line': b'Installing poi_manager script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/turtlebot3_poi_navigation\n'}
+[12.578468] (turtlebot3_poi_navigation) StdoutLine: {'line': b"writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_poi_navigation/install.log'\n"}
+[12.631208] (-) TimerEvent: {}
+[12.659318] (turtlebot3_poi_navigation) CommandEnded: {'returncode': 0}
+[12.676424] (turtlebot3_poi_navigation) JobEnded: {'identifier': 'turtlebot3_poi_navigation', 'rc': 0}
+[12.731367] (-) TimerEvent: {}
+[12.832077] (-) TimerEvent: {}
+[12.932592] (-) TimerEvent: {}
+[13.033483] (-) TimerEvent: {}
+[13.133987] (-) TimerEvent: {}
+[13.234541] (-) TimerEvent: {}
+[13.335130] (-) TimerEvent: {}
+[13.435683] (-) TimerEvent: {}
+[13.536245] (-) TimerEvent: {}
+[13.636812] (-) TimerEvent: {}
+[13.737417] (-) TimerEvent: {}
+[13.838024] (-) TimerEvent: {}
+[13.938902] (-) TimerEvent: {}
+[14.042005] (-) TimerEvent: {}
+[14.142554] (-) TimerEvent: {}
+[14.243070] (-) TimerEvent: {}
+[14.343579] (-) TimerEvent: {}
+[14.444099] (-) TimerEvent: {}
+[14.544670] (-) TimerEvent: {}
+[14.645285] (-) TimerEvent: {}
+[14.745902] (-) TimerEvent: {}
+[14.846437] (-) TimerEvent: {}
+[14.946983] (-) TimerEvent: {}
+[15.047496] (-) TimerEvent: {}
+[15.148074] (-) TimerEvent: {}
+[15.248662] (-) TimerEvent: {}
+[15.349274] (-) TimerEvent: {}
+[15.449880] (-) TimerEvent: {}
+[15.550372] (-) TimerEvent: {}
+[15.650887] (-) TimerEvent: {}
+[15.751758] (-) TimerEvent: {}
+[15.852761] (-) TimerEvent: {}
+[15.954173] (-) TimerEvent: {}
+[16.054928] (-) TimerEvent: {}
+[16.155596] (-) TimerEvent: {}
+[16.256119] (-) TimerEvent: {}
+[16.356641] (-) TimerEvent: {}
+[16.457182] (-) TimerEvent: {}
+[16.557694] (-) TimerEvent: {}
+[16.658281] (-) TimerEvent: {}
+[16.758936] (-) TimerEvent: {}
+[16.859471] (-) TimerEvent: {}
+[16.959969] (-) TimerEvent: {}
+[17.060465] (-) TimerEvent: {}
+[17.161160] (-) TimerEvent: {}
+[17.261684] (-) TimerEvent: {}
+[17.362225] (-) TimerEvent: {}
+[17.462778] (-) TimerEvent: {}
+[17.563322] (-) TimerEvent: {}
+[17.663883] (-) TimerEvent: {}
+[17.764431] (-) TimerEvent: {}
+[17.865035] (-) TimerEvent: {}
+[17.965635] (-) TimerEvent: {}
+[18.066218] (-) TimerEvent: {}
+[18.166779] (-) TimerEvent: {}
+[18.267337] (-) TimerEvent: {}
+[18.367886] (-) TimerEvent: {}
+[18.468453] (-) TimerEvent: {}
+[18.569053] (-) TimerEvent: {}
+[18.669575] (-) TimerEvent: {}
+[18.770279] (-) TimerEvent: {}
+[18.870940] (-) TimerEvent: {}
+[18.971804] (-) TimerEvent: {}
+[19.072354] (-) TimerEvent: {}
+[19.172865] (-) TimerEvent: {}
+[19.273372] (-) TimerEvent: {}
+[19.373918] (-) TimerEvent: {}
+[19.474500] (-) TimerEvent: {}
+[19.575127] (-) TimerEvent: {}
+[19.675674] (-) TimerEvent: {}
+[19.776193] (-) TimerEvent: {}
+[19.876765] (-) TimerEvent: {}
+[19.977393] (-) TimerEvent: {}
+[20.078015] (-) TimerEvent: {}
+[20.178885] (-) TimerEvent: {}
+[20.279469] (-) TimerEvent: {}
+[20.379990] (-) TimerEvent: {}
+[20.480508] (-) TimerEvent: {}
+[20.581184] (-) TimerEvent: {}
+[20.681775] (-) TimerEvent: {}
+[20.782332] (-) TimerEvent: {}
+[20.882880] (-) TimerEvent: {}
+[20.983468] (-) TimerEvent: {}
+[21.084052] (-) TimerEvent: {}
+[21.184568] (-) TimerEvent: {}
+[21.285137] (-) TimerEvent: {}
+[21.385674] (-) TimerEvent: {}
+[21.486316] (-) TimerEvent: {}
+[21.587160] (-) TimerEvent: {}
+[21.687723] (-) TimerEvent: {}
+[21.788282] (-) TimerEvent: {}
+[21.888822] (-) TimerEvent: {}
+[21.989445] (-) TimerEvent: {}
+[22.089978] (-) TimerEvent: {}
+[22.190596] (-) TimerEvent: {}
+[22.291251] (-) TimerEvent: {}
+[22.392479] (-) TimerEvent: {}
+[22.493278] (-) TimerEvent: {}
+[22.593880] (-) TimerEvent: {}
+[22.694432] (-) TimerEvent: {}
+[22.795048] (-) TimerEvent: {}
+[22.895690] (-) TimerEvent: {}
+[22.996253] (-) TimerEvent: {}
+[23.096817] (-) TimerEvent: {}
+[23.197416] (-) TimerEvent: {}
+[23.297964] (-) TimerEvent: {}
+[23.398481] (-) TimerEvent: {}
+[23.499794] (-) TimerEvent: {}
+[23.600309] (-) TimerEvent: {}
+[23.700815] (-) TimerEvent: {}
+[23.801387] (-) TimerEvent: {}
+[23.901909] (-) TimerEvent: {}
+[24.002515] (-) TimerEvent: {}
+[24.103073] (-) TimerEvent: {}
+[24.203610] (-) TimerEvent: {}
+[24.304101] (-) TimerEvent: {}
+[24.404677] (-) TimerEvent: {}
+[24.508891] (-) TimerEvent: {}
+[24.609814] (-) TimerEvent: {}
+[24.712205] (-) TimerEvent: {}
+[24.814393] (-) TimerEvent: {}
+[24.914905] (-) TimerEvent: {}
+[25.015469] (-) TimerEvent: {}
+[25.116044] (-) TimerEvent: {}
+[25.216576] (-) TimerEvent: {}
+[25.317191] (-) TimerEvent: {}
+[25.417784] (-) TimerEvent: {}
+[25.518406] (-) TimerEvent: {}
+[25.619235] (-) TimerEvent: {}
+[25.719776] (-) TimerEvent: {}
+[25.820361] (-) TimerEvent: {}
+[25.920890] (-) TimerEvent: {}
+[26.021372] (-) TimerEvent: {}
+[26.121954] (-) TimerEvent: {}
+[26.222561] (-) TimerEvent: {}
+[26.324010] (-) TimerEvent: {}
+[26.424580] (-) TimerEvent: {}
+[26.525133] (-) TimerEvent: {}
+[26.625670] (-) TimerEvent: {}
+[26.726210] (-) TimerEvent: {}
+[26.827167] (-) TimerEvent: {}
+[26.927739] (-) TimerEvent: {}
+[27.029250] (-) TimerEvent: {}
+[27.129811] (-) TimerEvent: {}
+[27.230366] (-) TimerEvent: {}
+[27.330905] (-) TimerEvent: {}
+[27.431482] (-) TimerEvent: {}
+[27.532088] (-) TimerEvent: {}
+[27.632647] (-) TimerEvent: {}
+[27.733263] (-) TimerEvent: {}
+[27.834371] (-) TimerEvent: {}
+[27.934928] (-) TimerEvent: {}
+[28.035479] (-) TimerEvent: {}
+[28.135969] (-) TimerEvent: {}
+[28.236503] (-) TimerEvent: {}
+[28.337054] (-) TimerEvent: {}
+[28.437685] (-) TimerEvent: {}
+[28.538459] (-) TimerEvent: {}
+[28.639785] (-) TimerEvent: {}
+[28.740737] (-) TimerEvent: {}
+[28.841309] (-) TimerEvent: {}
+[28.942394] (-) TimerEvent: {}
+[29.042977] (-) TimerEvent: {}
+[29.143466] (-) TimerEvent: {}
+[29.243946] (-) TimerEvent: {}
+[29.344403] (-) TimerEvent: {}
+[29.444880] (-) TimerEvent: {}
+[29.545399] (-) TimerEvent: {}
+[29.645996] (-) TimerEvent: {}
+[29.746600] (-) TimerEvent: {}
+[29.848415] (-) TimerEvent: {}
+[29.948957] (-) TimerEvent: {}
+[30.049498] (-) TimerEvent: {}
+[30.150057] (-) TimerEvent: {}
+[30.250653] (-) TimerEvent: {}
+[30.351337] (-) TimerEvent: {}
+[30.452094] (-) TimerEvent: {}
+[30.554292] (-) TimerEvent: {}
+[30.654791] (-) TimerEvent: {}
+[30.755322] (-) TimerEvent: {}
+[30.780023] (explore_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable explore_node\x1b[0m\n'}
+[30.855471] (-) TimerEvent: {}
+[30.955960] (-) TimerEvent: {}
+[31.056594] (-) TimerEvent: {}
+[31.157600] (-) TimerEvent: {}
+[31.258305] (-) TimerEvent: {}
+[31.358799] (-) TimerEvent: {}
+[31.459298] (-) TimerEvent: {}
+[31.559837] (-) TimerEvent: {}
+[31.660631] (-) TimerEvent: {}
+[31.761135] (-) TimerEvent: {}
+[31.862366] (-) TimerEvent: {}
+[31.962953] (-) TimerEvent: {}
+[32.063695] (-) TimerEvent: {}
+[32.164372] (-) TimerEvent: {}
+[32.264861] (-) TimerEvent: {}
+[32.365387] (-) TimerEvent: {}
+[32.466390] (-) TimerEvent: {}
+[32.566974] (-) TimerEvent: {}
+[32.667466] (-) TimerEvent: {}
+[32.768028] (-) TimerEvent: {}
+[32.868722] (-) TimerEvent: {}
+[32.969438] (-) TimerEvent: {}
+[33.070044] (-) TimerEvent: {}
+[33.170628] (-) TimerEvent: {}
+[33.271371] (-) TimerEvent: {}
+[33.371918] (-) TimerEvent: {}
+[33.472411] (-) TimerEvent: {}
+[33.572900] (-) TimerEvent: {}
+[33.673359] (-) TimerEvent: {}
+[33.773828] (-) TimerEvent: {}
+[33.874342] (-) TimerEvent: {}
+[33.974915] (-) TimerEvent: {}
+[34.075510] (-) TimerEvent: {}
+[34.176216] (-) TimerEvent: {}
+[34.276813] (-) TimerEvent: {}
+[34.377379] (-) TimerEvent: {}
+[34.477970] (-) TimerEvent: {}
+[34.578552] (-) TimerEvent: {}
+[34.679276] (-) TimerEvent: {}
+[34.780091] (-) TimerEvent: {}
+[34.877746] (explore_cpp) StdoutLine: {'line': b'[100%] Built target explore_node\n'}
+[34.880182] (-) TimerEvent: {}
+[34.896943] (explore_cpp) CommandEnded: {'returncode': 0}
+[34.938195] (explore_cpp) JobProgress: {'identifier': 'explore_cpp', 'progress': 'install'}
+[34.952584] (explore_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp'], 'cwd': '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,3158,0'), ('USER', 'ajdj'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ajdj'), ('OLDPWD', '/home/ajdj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '2607'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ajdj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajdj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ajdj/.local/bin:/opt/ros/humble/bin:/home/ajdj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aj-hp-15:@/tmp/.ICE-unix/2417,unix/aj-hp-15:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2622c335_49ba_43a2_951a_554829832248'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TQA1X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_poi_navigation:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/joint_state_publisher_custom:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara:/opt/ros/humble')]), 'shell': False}
+[34.980390] (-) TimerEvent: {}
+[35.009398] (explore_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.080555] (-) TimerEvent: {}
+[35.143547] (explore_cpp) StdoutLine: {'line': b'-- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/explore_cpp/explore_node\n'}
+[35.151763] (explore_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/explore_cpp/explore_node" to ""\n'}
+[35.152175] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.xml\n'}
+[35.152327] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/ament_index/resource_index/package_run_dependencies/explore_cpp\n'}
+[35.169645] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/ament_index/resource_index/parent_prefix_path/explore_cpp\n'}
+[35.170070] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/ament_prefix_path.sh\n'}
+[35.170236] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/ament_prefix_path.dsv\n'}
+[35.170380] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/path.sh\n'}
+[35.170521] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/path.dsv\n'}
+[35.170704] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.bash\n'}
+[35.170841] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.sh\n'}
+[35.170995] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.zsh\n'}
+[35.171123] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.dsv\n'}
+[35.171248] (explore_cpp) StdoutLine: {'line': b'-- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.dsv\n'}
+[35.180661] (-) TimerEvent: {}
+[35.185584] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/ament_index/resource_index/packages/explore_cpp\n'}
+[35.186091] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/cmake/explore_cppConfig.cmake\n'}
+[35.186369] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/cmake/explore_cppConfig-version.cmake\n'}
+[35.186586] (explore_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.xml\n'}
+[35.189375] (explore_cpp) CommandEnded: {'returncode': 0}
+[35.259129] (explore_cpp) JobEnded: {'identifier': 'explore_cpp', 'rc': 0}
+[35.260363] (-) EventReactorShutdown: {}

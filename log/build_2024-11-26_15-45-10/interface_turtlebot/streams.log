@@ -1,0 +1,25 @@
+[2.496s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interface_turtlebot build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log --single-version-externally-managed install_data
+[3.003s] running egg_info
+[3.004s] writing ../../build/interface_turtlebot/interface_turtlebot.egg-info/PKG-INFO
+[3.006s] writing dependency_links to ../../build/interface_turtlebot/interface_turtlebot.egg-info/dependency_links.txt
+[3.007s] writing entry points to ../../build/interface_turtlebot/interface_turtlebot.egg-info/entry_points.txt
+[3.008s] writing requirements to ../../build/interface_turtlebot/interface_turtlebot.egg-info/requires.txt
+[3.011s] writing top-level names to ../../build/interface_turtlebot/interface_turtlebot.egg-info/top_level.txt
+[3.013s] reading manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[3.016s] writing manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[3.017s] running build
+[3.017s] running build_py
+[3.018s] copying interface_turtlebot/interface.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+[3.019s] running install
+[3.020s] running install_lib
+[3.027s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot/interface.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+[3.027s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot/interface.py to interface.cpython-310.pyc
+[3.030s] running install_data
+[3.031s] copying package.xml -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/interface_turtlebot
+[3.031s] running install_egg_info
+[3.036s] removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[3.039s] Copying ../../build/interface_turtlebot/interface_turtlebot.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info
+[3.041s] running install_scripts
+[3.082s] Installing interface script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/interface_turtlebot
+[3.084s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log'
+[3.192s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interface_turtlebot build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log --single-version-externally-managed install_data

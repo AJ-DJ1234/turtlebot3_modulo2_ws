@@ -1,0 +1,25 @@
+[1.816s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hazmat_marker build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log --single-version-externally-managed install_data
+[2.209s] running egg_info
+[2.211s] writing ../../build/hazmat_marker/hazmat_marker.egg-info/PKG-INFO
+[2.211s] writing dependency_links to ../../build/hazmat_marker/hazmat_marker.egg-info/dependency_links.txt
+[2.213s] writing entry points to ../../build/hazmat_marker/hazmat_marker.egg-info/entry_points.txt
+[2.213s] writing requirements to ../../build/hazmat_marker/hazmat_marker.egg-info/requires.txt
+[2.214s] writing top-level names to ../../build/hazmat_marker/hazmat_marker.egg-info/top_level.txt
+[2.222s] reading manifest file '../../build/hazmat_marker/hazmat_marker.egg-info/SOURCES.txt'
+[2.222s] writing manifest file '../../build/hazmat_marker/hazmat_marker.egg-info/SOURCES.txt'
+[2.222s] running build
+[2.223s] running build_py
+[2.223s] copying hazmat_marker/hazmat_marker_al.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build/lib/hazmat_marker
+[2.223s] running install
+[2.225s] running install_lib
+[2.226s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build/lib/hazmat_marker/hazmat_marker_al.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker
+[2.230s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker/hazmat_marker_al.py to hazmat_marker_al.cpython-310.pyc
+[2.236s] running install_data
+[2.236s] running install_egg_info
+[2.240s] removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker-0.1.0-py3.10.egg-info' (and everything under it)
+[2.242s] Copying ../../build/hazmat_marker/hazmat_marker.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker-0.1.0-py3.10.egg-info
+[2.246s] running install_scripts
+[2.275s] Installing hazmat_marker script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/hazmat_marker
+[2.278s] Installing hazmat_marker_al script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/hazmat_marker
+[2.278s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log'
+[2.348s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/hazmat_marker' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hazmat_marker build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log --single-version-externally-managed install_data

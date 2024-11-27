@@ -1,0 +1,57 @@
+[0.798s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore -DCMAKE_INSTALL_PREFIX=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite
+[5.099s] -- The C compiler identification is GNU 11.4.0
+[5.691s] -- The CXX compiler identification is GNU 11.4.0
+[6.040s] -- Detecting C compiler ABI info
+[6.368s] -- Detecting C compiler ABI info - done
+[6.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.384s] -- Detecting C compile features
+[6.470s] -- Detecting C compile features - done
+[6.509s] -- Detecting CXX compiler ABI info
+[6.684s] -- Detecting CXX compiler ABI info - done
+[6.696s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.696s] -- Detecting CXX compile features
+[6.697s] -- Detecting CXX compile features - done
+[6.697s] -- BuilD for ROS2: humble
+[7.357s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.385s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[12.321s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.502s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.739s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.432s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.729s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.046s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.935s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[17.115s] -- Found FastRTPS: /opt/ros/humble/include  
+[17.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.732s] -- Looking for pthread.h
+[18.540s] -- Looking for pthread.h - found
+[18.542s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.759s] -- Found Threads: TRUE  
+[19.361s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[19.959s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[22.980s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[23.009s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[23.011s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[23.012s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[23.092s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[23.513s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[23.627s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[24.113s] -- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[29.944s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[30.047s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[30.342s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[30.892s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[30.893s] -- Configured cppcheck include dirs: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore/include;$<BUILD_INTERFACE:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore/include>
+[30.893s] -- Configured cppcheck exclude dirs and/or files: 
+[30.949s] -- Added test 'flake8' to check Python code syntax and style conventions
+[31.067s] -- Added test 'lint_cmake' to check CMake code style
+[31.160s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[31.232s] -- Added test 'uncrustify' to check C / C++ code style
+[31.232s] -- Configured uncrustify additional arguments: 
+[31.289s] -- Added test 'xmllint' to check XML markup files
+[31.620s] -- Configuring done
+[35.577s] -- Generating done
+[35.581s] -- Build files have been written to: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite

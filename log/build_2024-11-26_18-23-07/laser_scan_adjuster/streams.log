@@ -1,0 +1,21 @@
+[1.935s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_scan_adjuster build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log --single-version-externally-managed install_data
+[2.385s] running egg_info
+[2.387s] writing ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/PKG-INFO
+[2.432s] writing dependency_links to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/dependency_links.txt
+[2.433s] writing entry points to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/entry_points.txt
+[2.433s] writing requirements to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/requires.txt
+[2.433s] writing top-level names to ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/top_level.txt
+[2.437s] reading manifest file '../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/SOURCES.txt'
+[2.463s] writing manifest file '../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info/SOURCES.txt'
+[2.464s] running build
+[2.464s] running build_py
+[2.502s] running install
+[2.504s] running install_lib
+[2.546s] running install_data
+[2.548s] running install_egg_info
+[2.551s] removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages/laser_scan_adjuster-0.0.0-py3.10.egg-info' (and everything under it)
+[2.552s] Copying ../../build/laser_scan_adjuster/laser_scan_adjuster.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages/laser_scan_adjuster-0.0.0-py3.10.egg-info
+[2.578s] running install_scripts
+[2.626s] Installing adjust_scan script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/laser_scan_adjuster
+[2.656s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log'
+[2.733s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/laser_scan_adjuster' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/laser_scan_adjuster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laser_scan_adjuster build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/laser_scan_adjuster/install.log --single-version-externally-managed install_data

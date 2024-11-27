@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<robot name="parallel_mechanism_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Dummy Parent Link (No Inertial Properties) -->
+  <link name="dummy_parent_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.0"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.0"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint between dummy_parent_link and base_link -->
+  <joint name="joint_dummy_base" type="fixed">
+    <parent link="dummy_parent_link"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Definition of Materials -->
+  <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+  <material name="blue">
+    <color rgba="0 0 1 1"/>
+  </material>
+  <material name="green">
+    <color rgba="0 1 0 1"/>
+  </material>
+
+  <!-- Link Base (Central Cube) -->
+  <link name="base_link">
+    <inertial>
+      <mass value="2.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.1" ixy="0.0" ixz="0.0" 
+        iyy="0.1" iyz="0.0" izz="0.1"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Brushless Motor 1 (Right) -->
+
+  <!-- Motor 1 Stator -->
+  <link name="motor_1_stator">
+    <inertial>
+      <mass value="0.3"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.01" ixy="0.0" ixz="0.0" 
+        iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <!-- Rotate the stator to align the cylinder with the X-axis -->
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/> <!-- 90 degrees around Y-axis -->
+      <geometry>
+        <cylinder length="0.08" radius="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder length="0.08" radius="0.04"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Motor 1 Rotor (No Visual) -->
+  <link name="motor_1_rotor">
+    <inertial>
+      <mass value="0.2"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.005" ixy="0.0" ixz="0.0" 
+        iyy="0.005" iyz="0.0" izz="0.005"/>
+    </inertial>
+    <!-- No visual or collision geometry for the rotor -->
+  </link>
+
+  <!-- Brushless Motor 2 (Left) -->
+
+  <!-- Motor 2 Stator -->
+  <link name="motor_2_stator">
+    <inertial>
+      <mass value="0.3"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.01" ixy="0.0" ixz="0.0" 
+        iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <!-- Rotate the stator to align the cylinder with the X-axis -->
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/> <!-- 90 degrees around Y-axis -->
+      <geometry>
+        <cylinder length="0.08" radius="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder length="0.08" radius="0.04"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Motor 2 Rotor (No Visual) -->
+  <link name="motor_2_rotor">
+    <inertial>
+      <mass value="0.2"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.005" ixy="0.0" ixz="0.0" 
+        iyy="0.005" iyz="0.0" izz="0.005"/>
+    </inertial>
+    <!-- No visual or collision geometry for the rotor -->
+  </link>
+
+  <!-- Joints Connecting Motors to Base -->
+
+  <!-- Joint between base_link and motor_1_stator (Right) -->
+  <joint name="joint_motor_1_stator" type="fixed">
+    <parent link="base_link"/>
+    <child link="motor_1_stator"/>
+    <origin xyz="0.1 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Joint between motor_1_stator and motor_1_rotor (Right) -->
+  <joint name="joint_motor_1_rotor" type="revolute">
+    <parent link="motor_1_stator"/>
+    <child link="motor_1_rotor"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Rotor centered in the stator -->
+    <axis xyz="1 0 0"/> <!-- Rotation around X-axis -->
+    <limit lower="-3.14" upper="3.14" effort="5.0" velocity="10.0"/>
+  </joint>
+
+  <!-- Joint between base_link and motor_2_stator (Left) -->
+  <joint name="joint_motor_2_stator" type="fixed">
+    <parent link="base_link"/>
+    <child link="motor_2_stator"/>
+    <origin xyz="-0.1 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Joint between motor_2_stator and motor_2_rotor (Left) -->
+  <joint name="joint_motor_2_rotor" type="revolute">
+    <parent link="motor_2_stator"/>
+    <child link="motor_2_rotor"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Rotor centered in the stator -->
+    <axis xyz="1 0 0"/> <!-- Rotation around X-axis -->
+    <limit lower="-3.14" upper="3.14" effort="5.0" velocity="10.0"/>
+  </joint>
+
+  <!-- Arms of the Parallel Mechanism -->
+
+  <!-- Arm 1 -->
+  <link name="arm_1">
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.02" ixy="0.0" ixz="0.0" 
+        iyy="0.02" iyz="0.0" izz="0.02"/>
+    </inertial>
+    <visual>
+      <!-- Offset the base of the cylinder to the center of the rotor -->
+      <origin xyz="0.06 0 0.1" rpy="0 0 0"/> <!-- Moves the origin towards the end of the cylinder -->
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0.1 0 0" rpy="0 0 0"/> <!-- Offset collision geometry -->
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Arm 2 -->
+  <link name="arm_2">
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.02" ixy="0.0" ixz="0.0" 
+        iyy="0.02" iyz="0.0" izz="0.02"/>
+    </inertial>
+    <visual>
+      <!-- Geometry of the arm starts at the center of the rotor -->
+      <origin xyz="-0.06 0 0.1" rpy="0 0 0"/> <!-- Offset to start at the rotor -->
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.1 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joints Connecting Rotors to Arms -->
+
+  <!-- Joint between motor_1_rotor and arm_1 -->
+  <joint name="joint_motor_1_arm_1" type="fixed">
+    <parent link="motor_1_rotor"/>
+    <child link="arm_1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Arm connected at rotor center -->
+  </joint>
+
+  <!-- Joint between motor_2_rotor and arm_2 -->
+  <joint name="joint_motor_2_arm_2" type="fixed">
+    <parent link="motor_2_rotor"/>
+    <child link="arm_2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Arm connected at rotor center -->
+  </joint>
+
+  <!-- Definition of Rotulas and RC Rods -->
+
+  <!-- Rotula 1 -->
+  <link name="rotula_1">
+    <inertial>
+      <mass value="0.05"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Rotula 2 -->
+  <link name="rotula_2">
+    <inertial>
+      <mass value="0.05"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- RC Rod 1 -->
+  <link name="rc_rod_1">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.001" ixy="0.0" ixz="0.0" 
+        iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.15" radius="0.01"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.15" radius="0.01"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- RC Rod 2 -->
+  <link name="rc_rod_2">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.001" ixy="0.0" ixz="0.0" 
+        iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.15" radius="0.01"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.15" radius="0.01"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joints for RC Rod 1 -->
+  <joint name="joint_arm_1_rotula_1_revolute_1" type="revolute">
+    <parent link="arm_1"/>
+    <child link="rotula_1"/>
+    <origin xyz="0.06 0 0.3" rpy="0 0 0"/> <!-- End of arm 1 -->
+    <axis xyz="0 1 0"/> <!-- Rotation around Y-axis -->
+    <limit lower="-1.57" upper="1.57" effort="1.0" velocity="2.0"/>
+  </joint>
+
+  <joint name="joint_rotula_1_rc_rod_1_revolute_2" type="revolute">
+    <parent link="rotula_1"/>
+    <child link="rc_rod_1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Connection at rotula_1 -->
+    <axis xyz="0 0 1"/> <!-- Rotation around Z-axis -->
+    <limit lower="-1.57" upper="1.57" effort="1.0" velocity="2.0"/>
+  </joint>
+
+  <!-- Joints for RC Rod 2 -->
+  <joint name="joint_arm_2_rotula_2_revolute_1" type="revolute">
+    <parent link="arm_2"/>
+    <child link="rotula_2"/>
+    <origin xyz="-0.06 0 0.3" rpy="0 0 0"/> <!-- End of arm 2 -->
+    <axis xyz="0 1 0"/> <!-- Rotation around Y-axis -->
+    <limit lower="-1.57" upper="1.57" effort="1.0" velocity="2.0"/>
+  </joint>
+
+  <joint name="joint_rotula_2_rc_rod_2_revolute_2" type="revolute">
+    <parent link="rotula_2"/>
+    <child link="rc_rod_2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Connection at rotula_2 -->
+    <axis xyz="0 0 1"/> <!-- Rotation around Z-axis -->
+    <limit lower="-1.57" upper="1.57" effort="1.0" velocity="2.0"/>
+  </joint>
+
+  <!-- Bearing -->
+  <link name="bearing">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia 
+        ixx="0.001" ixy="0.0" ixz="0.0" 
+        iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joints Connecting Arms to Bearing -->
+
+  <!-- Joint between arm_1 and bearing -->
+  <joint name="joint_arm_1_bearing" type="revolute">
+    <parent link="arm_1"/>
+    <child link="bearing"/>
+    <origin xyz="0.2 0 0" rpy="0 0 0"/> <!-- End of arm_1 -->
+    <axis xyz="0 1 0"/> <!-- Allows rotation around Y-axis -->
+    <limit lower="-1.57" upper="1.57" effort="2.0" velocity="5.0"/>
+  </joint>
+
+  <!-- Joint between arm_2 and bearing -->
+  <joint name="joint_arm_2_bearing" type="revolute">
+    <parent link="arm_2"/>
+    <child link="bearing"/>
+    <origin xyz="-0.2 0 0" rpy="0 0 0"/> <!-- End of arm_2 -->
+    <axis xyz="0 1 0"/> <!-- Allows rotation around Y-axis -->
+    <limit lower="-1.57" upper="1.57" effort="2.0" velocity="5.0"/>
+  </joint>
+
+</robot>
+

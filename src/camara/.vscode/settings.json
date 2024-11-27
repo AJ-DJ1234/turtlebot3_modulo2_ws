@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ajdj/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_exploration/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/ajdj/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/build/turtlebot3_example",
+        "/home/ajdj/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ajdj/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_exploration/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/ajdj/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/ajdj/turtlebot3_ws/build/turtlebot3_example",
+        "/home/ajdj/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

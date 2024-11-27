@@ -1,0 +1,6 @@
+source;share/camara/hook/pythonpath.ps1
+source;share/camara/hook/pythonpath.dsv
+source;share/camara/hook/pythonpath.sh
+source;share/camara/hook/ament_prefix_path.ps1
+source;share/camara/hook/ament_prefix_path.dsv
+source;share/camara/hook/ament_prefix_path.sh

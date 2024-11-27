@@ -1,0 +1,36 @@
+[2.031s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interface_turtlebot build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log --single-version-externally-managed install_data
+[2.485s] running egg_info
+[2.486s] creating ../../build/interface_turtlebot/interface_turtlebot.egg-info
+[2.486s] writing ../../build/interface_turtlebot/interface_turtlebot.egg-info/PKG-INFO
+[2.487s] writing dependency_links to ../../build/interface_turtlebot/interface_turtlebot.egg-info/dependency_links.txt
+[2.487s] writing entry points to ../../build/interface_turtlebot/interface_turtlebot.egg-info/entry_points.txt
+[2.487s] writing requirements to ../../build/interface_turtlebot/interface_turtlebot.egg-info/requires.txt
+[2.487s] writing top-level names to ../../build/interface_turtlebot/interface_turtlebot.egg-info/top_level.txt
+[2.488s] writing manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[2.491s] reading manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[2.492s] writing manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[2.493s] running build
+[2.493s] running build_py
+[2.493s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build
+[2.493s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib
+[2.494s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+[2.494s] copying interface_turtlebot/interface.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+[2.508s] copying interface_turtlebot/__init__.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+[2.509s] running install
+[2.509s] running install_lib
+[2.515s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+[2.515s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot/interface.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+[2.515s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot/__init__.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+[2.516s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot/interface.py to interface.cpython-310.pyc
+[2.518s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot/__init__.py to __init__.cpython-310.pyc
+[2.518s] running install_data
+[2.519s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/ament_index
+[2.519s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/ament_index/resource_index
+[2.519s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/ament_index/resource_index/packages
+[2.519s] copying resource/interface_turtlebot -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/ament_index/resource_index/packages
+[2.519s] copying package.xml -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/interface_turtlebot
+[2.519s] running install_egg_info
+[2.522s] Copying ../../build/interface_turtlebot/interface_turtlebot.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info
+[2.523s] running install_scripts
+[2.560s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log'
+[3.352s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interface_turtlebot build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log --single-version-externally-managed install_data

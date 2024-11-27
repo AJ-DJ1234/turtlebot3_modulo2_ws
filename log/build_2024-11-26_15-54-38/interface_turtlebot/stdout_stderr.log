@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/interface_turtlebot/interface_turtlebot.egg-info/PKG-INFO
+writing dependency_links to ../../build/interface_turtlebot/interface_turtlebot.egg-info/dependency_links.txt
+writing entry points to ../../build/interface_turtlebot/interface_turtlebot.egg-info/entry_points.txt
+writing requirements to ../../build/interface_turtlebot/interface_turtlebot.egg-info/requires.txt
+writing top-level names to ../../build/interface_turtlebot/interface_turtlebot.egg-info/top_level.txt
+reading manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+writing manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying interface_turtlebot/interface_bot.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+copying interface_turtlebot/__init__.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+running install
+running install_lib
+copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot/interface_bot.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot/__init__.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot/interface_bot.py to interface_bot.cpython-310.pyc
+byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/interface_turtlebot -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/ament_index/resource_index/packages
+copying package.xml -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/share/interface_turtlebot
+running install_egg_info
+removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/interface_turtlebot/interface_turtlebot.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing interface_bot script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/interface_turtlebot
+writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log'

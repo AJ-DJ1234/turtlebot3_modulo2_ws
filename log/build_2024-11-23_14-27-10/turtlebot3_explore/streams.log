@@ -1,0 +1,21 @@
+[3.912s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_explore build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log --single-version-externally-managed install_data
+[4.635s] running egg_info
+[4.637s] writing ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/PKG-INFO
+[4.638s] writing dependency_links to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/dependency_links.txt
+[4.639s] writing entry points to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/entry_points.txt
+[4.639s] writing requirements to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/requires.txt
+[4.639s] writing top-level names to ../../build/turtlebot3_explore/turtlebot3_explore.egg-info/top_level.txt
+[4.644s] reading manifest file '../../build/turtlebot3_explore/turtlebot3_explore.egg-info/SOURCES.txt'
+[4.645s] writing manifest file '../../build/turtlebot3_explore/turtlebot3_explore.egg-info/SOURCES.txt'
+[4.645s] running build
+[4.645s] running build_py
+[4.645s] running install
+[4.646s] running install_lib
+[4.652s] running install_data
+[4.652s] running install_egg_info
+[4.656s] removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages/turtlebot3_explore-0.0.1-py3.10.egg-info' (and everything under it)
+[4.658s] Copying ../../build/turtlebot3_explore/turtlebot3_explore.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages/turtlebot3_explore-0.0.1-py3.10.egg-info
+[4.659s] running install_scripts
+[4.709s] Installing explore script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/turtlebot3_explore
+[4.712s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log'
+[4.850s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/turtlebot3_explore' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/turtlebot3_explore/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_explore build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/turtlebot3_explore/install.log --single-version-externally-managed install_data

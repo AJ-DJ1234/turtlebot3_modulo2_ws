@@ -1,0 +1,5 @@
+[console_scripts]
+hazmat_marker = hazmat_marker.hazmat_marker:main
+hazmat_marker_aj = hazmat_marker.hazmat_marker_aj:main
+hazmat_marker_al = hazmat_marker.hazmat_marker_al:main
+

@@ -1,0 +1,71 @@
+[0.354s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp -DCMAKE_INSTALL_PREFIX=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp
+[1.594s] -- The C compiler identification is GNU 11.4.0
+[2.604s] -- The CXX compiler identification is GNU 11.4.0
+[2.643s] -- Detecting C compiler ABI info
+[3.254s] -- Detecting C compiler ABI info - done
+[3.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.353s] -- Detecting C compile features
+[3.386s] -- Detecting C compile features - done
+[3.400s] -- Detecting CXX compiler ABI info
+[3.615s] -- Detecting CXX compiler ABI info - done
+[3.631s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.632s] -- Detecting CXX compile features
+[3.637s] -- Detecting CXX compile features - done
+[3.817s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.222s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.776s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.307s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.363s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.437s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.294s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.776s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.833s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.882s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.015s] -- Looking for pthread.h
+[7.333s] -- Looking for pthread.h - found
+[7.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.445s] -- Found Threads: TRUE  
+[7.701s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.851s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.995s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.612s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.725s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.728s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.756s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[8.902s] -- Found OpenCV: /usr (found version "4.5.4") 
+[8.958s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.151s] -- Configuring done
+[9.204s] -- Generating done
+[9.207s] -- Build files have been written to: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp
+[9.224s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore_cpp -DCMAKE_INSTALL_PREFIX=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp
+[9.228s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp -- -j4 -l4
+[9.302s] [ 50%] [32mBuilding CXX object CMakeFiles/explore_node.dir/src/explore_node.cpp.o[0m
+[28.435s] [100%] [32m[1mLinking CXX executable explore_node[0m
+[30.757s] [100%] Built target explore_node
+[30.775s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp -- -j4 -l4
+[30.820s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp
+[30.829s] -- Install configuration: ""
+[30.830s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/explore_cpp/explore_node
+[30.836s] -- Set runtime path of "/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/lib/explore_cpp/explore_node" to ""
+[30.836s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.xml
+[30.836s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/ament_index/resource_index/package_run_dependencies/explore_cpp
+[30.837s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/ament_index/resource_index/parent_prefix_path/explore_cpp
+[30.837s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/ament_prefix_path.sh
+[30.837s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/ament_prefix_path.dsv
+[30.837s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/path.sh
+[30.837s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/environment/path.dsv
+[30.837s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.bash
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.sh
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.zsh
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/local_setup.dsv
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.dsv
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/ament_index/resource_index/packages/explore_cpp
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/cmake/explore_cppConfig.cmake
+[30.838s] -- Installing: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/cmake/explore_cppConfig-version.cmake
+[30.839s] -- Up-to-date: /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_cpp/share/explore_cpp/package.xml
+[30.841s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_cpp

@@ -1,0 +1,25 @@
+[2.544s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interface_turtlebot build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log --single-version-externally-managed install_data
+[3.384s] running egg_info
+[3.386s] writing ../../build/interface_turtlebot/interface_turtlebot.egg-info/PKG-INFO
+[3.490s] writing dependency_links to ../../build/interface_turtlebot/interface_turtlebot.egg-info/dependency_links.txt
+[3.494s] writing entry points to ../../build/interface_turtlebot/interface_turtlebot.egg-info/entry_points.txt
+[3.494s] writing requirements to ../../build/interface_turtlebot/interface_turtlebot.egg-info/requires.txt
+[3.498s] writing top-level names to ../../build/interface_turtlebot/interface_turtlebot.egg-info/top_level.txt
+[3.510s] reading manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[3.546s] writing manifest file '../../build/interface_turtlebot/interface_turtlebot.egg-info/SOURCES.txt'
+[3.547s] running build
+[3.547s] running build_py
+[3.547s] copying interface_turtlebot/map_saver_service.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot
+[3.573s] running install
+[3.573s] running install_lib
+[3.644s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build/lib/interface_turtlebot/map_saver_service.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot
+[3.690s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot/map_saver_service.py to map_saver_service.cpython-310.pyc
+[3.706s] running install_data
+[3.738s] running install_egg_info
+[3.749s] removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[3.753s] Copying ../../build/interface_turtlebot/interface_turtlebot.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages/interface_turtlebot-0.0.0-py3.10.egg-info
+[3.774s] running install_scripts
+[3.857s] Installing interface script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/interface_turtlebot
+[3.902s] Installing interface_bot script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/interface_turtlebot
+[3.902s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log'
+[4.806s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/interface_turtlebot' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/interface_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interface_turtlebot build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/interface_turtlebot/install.log --single-version-externally-managed install_data

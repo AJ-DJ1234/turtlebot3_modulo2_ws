@@ -1,0 +1,6 @@
+source;share/laser_scan_adjuster/hook/pythonpath.ps1
+source;share/laser_scan_adjuster/hook/pythonpath.dsv
+source;share/laser_scan_adjuster/hook/pythonpath.sh
+source;share/laser_scan_adjuster/hook/ament_prefix_path.ps1
+source;share/laser_scan_adjuster/hook/ament_prefix_path.dsv
+source;share/laser_scan_adjuster/hook/ament_prefix_path.sh

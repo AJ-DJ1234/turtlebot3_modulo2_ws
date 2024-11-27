@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: turtlebot3-explore
+Version: 0.0.1
+Summary: Nodo de ROS2 para la exploración autónoma de un robot móvil utilizando Nav2 y SLAM Toolbox.
+Home-page: UNKNOWN
+Maintainer: Tu Nombre
+Maintainer-email: tu_email@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

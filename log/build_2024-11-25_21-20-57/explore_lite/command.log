@@ -1,0 +1,1 @@
+Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/explore -DCMAKE_INSTALL_PREFIX=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/explore_lite

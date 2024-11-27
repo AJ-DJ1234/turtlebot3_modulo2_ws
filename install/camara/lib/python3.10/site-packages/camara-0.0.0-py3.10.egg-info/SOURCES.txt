@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camara/camara.egg-info/PKG-INFO
+../../build/camara/camara.egg-info/SOURCES.txt
+../../build/camara/camara.egg-info/dependency_links.txt
+../../build/camara/camara.egg-info/entry_points.txt
+../../build/camara/camara.egg-info/requires.txt
+../../build/camara/camara.egg-info/top_level.txt
+../../build/camara/camara.egg-info/zip-safe
+camara/__init__.py
+camara/camara_client.py
+camara/camara_server.py
+resource/camara
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

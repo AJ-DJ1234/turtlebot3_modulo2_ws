@@ -1,0 +1,3 @@
+[console_scripts]
+poi_manager = turtlebot3_poi_navigation.poi_manager:main
+

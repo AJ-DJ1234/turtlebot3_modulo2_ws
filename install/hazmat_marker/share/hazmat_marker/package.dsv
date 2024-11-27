@@ -1,0 +1,6 @@
+source;share/hazmat_marker/hook/pythonpath.ps1
+source;share/hazmat_marker/hook/pythonpath.dsv
+source;share/hazmat_marker/hook/pythonpath.sh
+source;share/hazmat_marker/hook/ament_prefix_path.ps1
+source;share/hazmat_marker/hook/ament_prefix_path.dsv
+source;share/hazmat_marker/hook/ament_prefix_path.sh

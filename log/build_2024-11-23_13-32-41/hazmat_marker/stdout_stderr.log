@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/hazmat_marker/hazmat_marker.egg-info/PKG-INFO
+writing dependency_links to ../../build/hazmat_marker/hazmat_marker.egg-info/dependency_links.txt
+writing entry points to ../../build/hazmat_marker/hazmat_marker.egg-info/entry_points.txt
+writing requirements to ../../build/hazmat_marker/hazmat_marker.egg-info/requires.txt
+writing top-level names to ../../build/hazmat_marker/hazmat_marker.egg-info/top_level.txt
+reading manifest file '../../build/hazmat_marker/hazmat_marker.egg-info/SOURCES.txt'
+writing manifest file '../../build/hazmat_marker/hazmat_marker.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hazmat_marker/hazmat_marker.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/python3.10/site-packages/hazmat_marker-0.1.0-py3.10.egg-info
+running install_scripts
+Installing hazmat_marker script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/hazmat_marker/lib/hazmat_marker
+writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/hazmat_marker/install.log'

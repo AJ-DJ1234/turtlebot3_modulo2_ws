@@ -1,0 +1,34 @@
+[1.249s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_position_controller build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log --single-version-externally-managed install_data
+[1.603s] running egg_info
+[1.604s] creating ../../build/motor_position_controller/motor_position_controller.egg-info
+[1.604s] writing ../../build/motor_position_controller/motor_position_controller.egg-info/PKG-INFO
+[1.605s] writing dependency_links to ../../build/motor_position_controller/motor_position_controller.egg-info/dependency_links.txt
+[1.605s] writing entry points to ../../build/motor_position_controller/motor_position_controller.egg-info/entry_points.txt
+[1.606s] writing requirements to ../../build/motor_position_controller/motor_position_controller.egg-info/requires.txt
+[1.606s] writing top-level names to ../../build/motor_position_controller/motor_position_controller.egg-info/top_level.txt
+[1.607s] writing manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'
+[1.612s] reading manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'
+[1.613s] writing manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'
+[1.613s] running build
+[1.613s] running build_py
+[1.613s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build
+[1.613s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build/lib
+[1.613s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build/lib/motor_position_controller
+[1.613s] copying motor_position_controller/__init__.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build/lib/motor_position_controller
+[1.614s] running install
+[1.615s] running install_lib
+[1.616s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller
+[1.617s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build/lib/motor_position_controller/__init__.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller
+[1.618s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller/__init__.py to __init__.cpython-310.pyc
+[1.618s] running install_data
+[1.618s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/ament_index
+[1.618s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/ament_index/resource_index
+[1.618s] creating /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/ament_index/resource_index/packages
+[1.619s] copying resource/motor_position_controller -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/ament_index/resource_index/packages
+[1.619s] copying package.xml -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/share/motor_position_controller
+[1.619s] running install_egg_info
+[1.621s] Copying ../../build/motor_position_controller/motor_position_controller.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller-0.0.0-py3.10.egg-info
+[1.624s] running install_scripts
+[1.654s] Installing motor_position_controller script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/motor_position_controller
+[1.654s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log'
+[1.703s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/motor_position_controller' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_position_controller build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log --single-version-externally-managed install_data

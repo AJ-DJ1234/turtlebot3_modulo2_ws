@@ -1,0 +1,5 @@
+[console_scripts]
+interface = interface_turtlebot.interface:main
+interface_aj = interface_turtlebot.interface_aj:main
+interface_bot = interface_turtlebot.interface_bot:main
+
