@@ -23,6 +23,9 @@ setup(
             'interface_bot = interface_turtlebot.interface_bot:main',
             'interface = interface_turtlebot.interface:main',
             'interface_aj = interface_turtlebot.interface_aj:main',
+            'interface_final = interface_turtlebot.interface_final:main',
+            'interface_final2 = interface_turtlebot.interface_final2:main',
+            'map_saver_service = interface_turtlebot.map_saver_service:main',
         ],
     },
 )

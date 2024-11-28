@@ -12,6 +12,8 @@ interface_turtlebot/__init__.py
 interface_turtlebot/interface.py
 interface_turtlebot/interface_aj.py
 interface_turtlebot/interface_bot.py
+interface_turtlebot/interface_final.py
+interface_turtlebot/interface_final2.py
 interface_turtlebot/map_saver_service.py
 resource/interface_turtlebot
 test/test_copyright.py

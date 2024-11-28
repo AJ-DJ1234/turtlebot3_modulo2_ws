@@ -90,9 +90,9 @@ class HazmatMarkerNode(Node):
         text_marker.header.frame_id = "map"
         text_marker.type = Marker.TEXT_VIEW_FACING
         text_marker.action = Marker.ADD
-        text_marker.pose.position.x = hazmat_x
+        text_marker.pose.position.x = hazmat_x + 0.1
         text_marker.pose.position.y = hazmat_y
-        text_marker.pose.position.z = 0.0
+        text_marker.pose.position.z = 1.0
         text_marker.pose.orientation.w = 1.0  
         text_marker.scale.z = 0.1
         text_marker.color.r = 0.0

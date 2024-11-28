@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/motor_position_controller/motor_position_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_position_controller/motor_position_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_position_controller/motor_position_controller.egg-info/entry_points.txt
+writing requirements to ../../build/motor_position_controller/motor_position_controller.egg-info/requires.txt
+writing top-level names to ../../build/motor_position_controller/motor_position_controller.egg-info/top_level.txt
+reading manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_position_controller/motor_position_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/motor_position_controller/motor_position_controller.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/python3.10/site-packages/motor_position_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_position_controller script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/motor_position_controller/lib/motor_position_controller
+writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/motor_position_controller/install.log'

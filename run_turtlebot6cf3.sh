@@ -56,15 +56,6 @@ gnome-terminal -- bash -c "cd /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_mod
 sleep 5
 
 # ------------------------------------------
-# Ejecuta rqt
-echo ""
-echo "Running rqt..."
-echo ""
-rqt &
-# Espera 5 segundos para asegurar que el nodo se inicie correctamente
-sleep 5
-
-# ------------------------------------------
 # Ejecuta el nodo de la interfaz
 echo ""
 echo "Running map saver service..."
@@ -78,31 +69,16 @@ sleep 5
 echo ""
 echo "Running interface..."
 echo ""
-ros2 run interface_turtlebot interface_aj &
+ros2 run interface_turtlebot interface_final2 &
 # Espera 5 segundos para asegurar que el nodo se inicie correctamente
 sleep 5
 
 # ------------------------------------------
-# Ejecuta el nodo de exploración
 echo ""
-echo "Press 'y' to start the exploration..."
-read -p "Start exploration? (y/n): " user_input
-if [ "$user_input" = "y" ]; then
-	echo ""
-	echo "Running explore node..."
-	echo ""
-	gnome-terminal -- bash -c "cd /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_module2/; . install/setup.bash; ros2 run explore_cpp explore_node" &
-	# Espera 5 segundos para asegurar que el nodo se inicie correctamente
-	sleep 5
-
-	echo ""
-	echo ""
-	echo "All commands executed successfully."
-	echo ""
-	echo ""
-else
-	echo "Exploration execution canceled."
-fi
+echo ""
+echo "All commands executed successfully."
+echo ""
+echo ""
 
 # Esperar indefinidamente hasta que se reciba una señal de interrupción
 while true; do
