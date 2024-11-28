@@ -1,0 +1,25 @@
+[1.912s] Invoking command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camara build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log --single-version-externally-managed install_data
+[2.331s] running egg_info
+[2.332s] writing ../../build/camara/camara.egg-info/PKG-INFO
+[2.333s] writing dependency_links to ../../build/camara/camara.egg-info/dependency_links.txt
+[2.333s] writing entry points to ../../build/camara/camara.egg-info/entry_points.txt
+[2.333s] writing requirements to ../../build/camara/camara.egg-info/requires.txt
+[2.333s] writing top-level names to ../../build/camara/camara.egg-info/top_level.txt
+[2.340s] reading manifest file '../../build/camara/camara.egg-info/SOURCES.txt'
+[2.340s] writing manifest file '../../build/camara/camara.egg-info/SOURCES.txt'
+[2.341s] running build
+[2.341s] running build_py
+[2.341s] copying camara/camara_server.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build/lib/camara
+[2.341s] running install
+[2.341s] running install_lib
+[2.346s] copying /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build/lib/camara/camara_server.py -> /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages/camara
+[2.347s] byte-compiling /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages/camara/camara_server.py to camara_server.cpython-310.pyc
+[2.347s] running install_data
+[2.347s] running install_egg_info
+[2.347s] removing '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages/camara-0.0.0-py3.10.egg-info' (and everything under it)
+[2.351s] Copying ../../build/camara/camara.egg-info to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages/camara-0.0.0-py3.10.egg-info
+[2.352s] running install_scripts
+[2.407s] Installing camara_client script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/camara
+[2.408s] Installing camara_server script to /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/camara
+[2.409s] writing list of installed files to '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log'
+[2.518s] Invoked command in '/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/src/camara' returned '0': PYTHONPATH=/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/install/camara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camara build --build-base /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/build install --record /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_modulo2/build/camara/install.log --single-version-externally-managed install_data

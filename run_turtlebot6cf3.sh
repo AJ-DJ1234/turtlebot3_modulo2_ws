@@ -42,7 +42,7 @@ echo ""
 echo ""
 echo "Running hazmat marker node..."
 echo ""
-gnome-terminal -- bash -c "cd /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_module2/; . install/setup.bash; ros2 run hazmat_marker hazmat_marker_aj; exec bash" &
+gnome-terminal -- bash -c "ros2 run hazmat_marker hazmat_marker_aj; exec bash" &
 # Espera 5 segundos para asegurar que el nodo se inicie correctamente
 sleep 5
 
@@ -51,7 +51,7 @@ sleep 5
 echo ""
 echo "Running camera server..."
 echo ""
-gnome-terminal -- bash -c "cd /home/ajdj/Workspaces/turtlebot3_ws/turtlebot3_module2/; . install/setup.bash; ros2 run camara camara_server; exec bash" &
+gnome-terminal -- bash -c "ros2 run camara camara_server; exec bash" &
 # Espera 5 segundos para asegurar que el nodo se inicie correctamente
 sleep 5
 
